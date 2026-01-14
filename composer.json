@@ -18,7 +18,7 @@
         "ext-simplexml": "*",
         "php-ds/php-ds": "^v1.4.1",
         "symfony/filesystem": "^6.0",
-        "symfony/console": "^6.0"
+        "symfony/console": "^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
         "kahlan/kahlan": "^5.1.3",
