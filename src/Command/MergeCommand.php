@@ -50,7 +50,7 @@ class MergeCommand extends Command
      * @throws ArgumentException
      * @throws FileException
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $accumulator = new Accumulator(
             $this->mode($input->getOption('mode'))
